@@ -1,0 +1,195 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: rgb(169, 169, 169, 0.5);
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-link {
+	color: white;
+}
+
+.menu-service {
+	position: relative;
+}
+
+.menu-service ul {
+	position: absolute;
+	z-index: 2;
+	display: none;
+}
+
+.menu-service ul li a {
+	padding: 8px;
+	background-color: #343a40;
+	width: 170px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+.menu-service:hover ul {
+	display: block;
+}
+
+.menu-service ul li a:hover {
+	background-color:#DCDCDC;
+	border-radius:3px;
+	color:red;
+}
+
+.header a:hover {
+	background-color: #DCDCDC;
+	color:red;
+	border-radius:3px;
+}
+
+.header .banner {
+	position: relative;
+	height: 200px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: repeat;
+	width: 100%;
+	margin: 0px;
+}
+
+.header .banner .btn-secondary {
+	height: 50px;
+	border-radius: 4px;
+	position: absolute;
+	top: 42%;
+}
+
+.header .button-click i {
+	font-size: 20px;
+}
+.header .button-click1 {
+	left: 92%;
+}
+
+.header .button-click2 {
+	right: 92%;
+}
+
+.content .contentbook {
+	padding: 3px 20px;
+}
+
+.content {
+	background-color: white;
+}
+
+.content .row .navbar {
+	position: relative;
+	border-radius: 4px;
+}
+
+.content .row .form {
+	position: absolute;
+	right: 5%;
+}
+
+.content .row .form input {
+	padding-right: 80px;
+}
+
+.content .row .navbar .dropdown a:hover {
+	background-color: #DCDCDC;
+}
+
+.menu-content-right {
+	width: 100%;
+	text-align: center;
+}
+
+.menu-content-right a:hover {
+	background-color: #DCDCDC;
+	border-radius:3px;
+	color: red;
+}
+
+.nav-item-list {
+	text-align: left;
+	font-size: 20px;
+	color: #DCDCDC;
+}
+
+.content-right .row {
+	margin: 15px 0px;
+}
+
+.content .container-fluid {
+	padding: 0 30px;
+}
+
+.content-right div div a {
+	display: block;
+}
+
+.content-right div div a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.info div {
+	padding: 0px;
+}
+
+.menu-right .navbar-nav .nav-link {
+	color: white;
+	padding: 20px 25px;
+}
+
+.menu-right .navbar-nav {
+	height: 100%;
+}
+
+.info-table {
+	margin-bottom: 0px;
+	padding-bottom: 16px;
+}
+.col-md-3-div1 {
+	transition: all 0.1s;
+}
+
+.content .contentbook .content-right .col-md-3 {
+	display: flex;
+	justify-content: center;
+}
+
+.col-md-3-div1:hover {
+	box-shadow: 2px 2px 5px #9E97A8;
+}
+.a-star{
+	display:inline;
+}
+.content .page {
+	display: flex;
+	justify-content: center;
+}
+
+.content .page a {
+	padding-left: 10px;
+}
+
+.content .page a:visited {
+	color: red;
+}
+
+.content .page a:active {
+	text-decoration: underline;
+}
+.star{
+	color:yellow;
+	font-size:16px;
+}
+.far{
+	color:#a9a9a9;
+}

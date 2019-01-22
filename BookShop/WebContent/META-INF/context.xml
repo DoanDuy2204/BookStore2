@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/BookStore" type="javax.sql.DataSource"
+		maxActive="50" maxIdle="5" maxWait="1000" username="root"
+		password="Duy220498" driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/bookstore_db" />
+</Context>
